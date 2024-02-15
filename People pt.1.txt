@@ -1,1 +1,15 @@
-1. db.people.find()2. db.people.count()3. db.people.find({ÒstateÓ:ÓArizonaÓ})4. db.people.find({ÒstateÓ:ÓArizonaÓ,ÓgenderÓ:ÓMaleÓ})5. db.people.find({ÒstateÓ:{Ò$inÓ:[ÒArizonaÓ,ÓNew MexicoÓ]}})6. db.people.find({ÒageÓ:{Ò$ltÓ:40}})7. db.people.find({ÒstateÓ:ÓFloridaÓ, ÒgenderÓ:ÓFemaleÓ, ÒageÓ: {Ò$gteÓ:40, Ò$lteÓ:45}})8. skip for now9. db.people.find({ÒstateÓ:ÓMichiganÓ}).sort({Òfirst_nameÓ:1})10. db.people.find({Ò$orÓ:[{ÒstateÓ:ÓVirginiaÓ},{Òfirst_nameÓ:ÓVirginiaÓ}]})11. db.people.find({ÒageÓ:{Ò$ltÓ:30}},{Òfirst_nameÓ:1,Ólast_nameÓ:1,Ó_idÓ:0})12. db.people,find({ÒstateÓ:ÓMontanaÓ},{ÒageÓ:0})13. skip for now
+1.	db.people.find()
+2.	db.people.count()
+3.	db.people.find({â€œstateâ€:â€Arizonaâ€})
+4.	db.people.find({â€œstateâ€:â€Arizonaâ€,â€genderâ€:â€Maleâ€})
+5.	db.people.find({â€œstateâ€:{â€œ$inâ€:[â€œArizonaâ€,â€New Mexicoâ€]}})
+6.	db.people.find({â€œageâ€:{â€œ$ltâ€:40}})
+7.	db.people.find({â€œstateâ€:â€Floridaâ€, â€œgenderâ€:â€Femaleâ€, â€œageâ€: {â€œ$gteâ€:40, â€œ$lteâ€:45}})
+8.	skip for now
+9.	db.people.find({â€œstateâ€:â€Michiganâ€}).sort({â€œfirst_nameâ€:1})
+10.	db.people.find({â€œ$orâ€:[{â€œstateâ€:â€Virginiaâ€},{â€œfirst_nameâ€:â€Virginiaâ€}]})
+11.	db.people.find({â€œageâ€:{â€œ$ltâ€:30}},{â€œfirst_nameâ€:1,â€last_nameâ€:1,â€_idâ€:0})
+12.	db.people,find({â€œstateâ€:â€Montanaâ€},{â€œageâ€:0})
+13.	skip for now
+
+
